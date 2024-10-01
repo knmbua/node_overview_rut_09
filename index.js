@@ -1,13 +1,12 @@
-function (testOne){
 
+function printName(userName) {
+    const capitalize = str => {
+        return str. toUpperCase();
+    }
 
+    const capName = capitalize(userName);
+
+    console.log(capName);
 }
 
-testOne();
-
-const testTwo =() => {
-    console.log ('test two');
-
-}
-
-testTwo()
+printName('bob');
